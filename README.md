@@ -4,7 +4,7 @@
 
 **Dünya genelindeki depremleri anlık olarak izleyen, modern bir Android uygulaması.**
 
-[![Sürüm](https://img.shields.io/badge/S%C3%BCr%C3%BCm-1.0.1.1-FF3B30?style=for-the-badge)](https://github.com/aayurtseven01/earthquake_monitoring)
+[![Sürüm](https://img.shields.io/badge/S%C3%BCr%C3%BCm-1.1.0-FF3B30?style=for-the-badge)](https://github.com/aayurtseven01/earthquake_monitoring)
 [![Platform](https://img.shields.io/badge/Platform-Android%207.0%2B-3DDC84?style=for-the-badge&logo=android)](https://developer.android.com)
 [![Kotlin](https://img.shields.io/badge/Kotlin-Jetpack%20Compose-7F52FF?style=for-the-badge&logo=kotlin)](https://kotlinlang.org)
 [![Reklam](https://img.shields.io/badge/Reklam-YOK-00C853?style=for-the-badge)](https://aayurtseven01.github.io/earthquake_monitoring/)
@@ -266,6 +266,6 @@ Three.js (bundled, WebView) · WorkManager · MVVM with StateFlow.
 
 <div align="center">
 
-*Last updated: 16 September 2026 · Version 1.0.1.1*
+*Last updated: 16 September 2026 · Version 1.1.0*
 
 </div>

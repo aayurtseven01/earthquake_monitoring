@@ -15,9 +15,37 @@
 
 ---
 
-> ⚠️ **Önemli:** Bu uygulama **resmî bir erken uyarı sistemi değildir**.
-> Deprem bilgileri yalnızca bilgilendirme amaçlıdır. Doğru ve resmî bilgi
-> için daima **AFAD** ve **Kandilli Rasathanesi** kaynaklarına başvurunuz.
+## 🔴 ÖNEMLİ UYARI — LÜTFEN DİKKATLE OKUYUN
+
+![Önemli Uyarı](uyari.png)
+
+### ⚠️ BU UYGULAMA BİR ERKEN UYARI SİSTEMİ DEĞİLDİR.
+
+> **Veriler; EMSC (Avrupa-Akdeniz Sismoloji Merkezi) başta olmak üzere
+> ÜÇÜNCÜ TARAF sismoloji kuruluşlarının kamuya açık servislerinden
+> AKTARILMAKTADIR. Uygulamanın kendine ait bir ölçüm ağı veya veri
+> üretimi YOKTUR.**
+
+**Bilmeniz gerekenler:**
+
+- ⏱️ **GECİKMELER OLABİLİR.** Deprem bilgisinin kaynaktan alınması,
+  işlenmesi ve cihazınıza ulaşması zaman alır. Görünen veriler depremin
+  gerçekleştiği anı birebir yansıtmayabilir.
+
+- 🔄 **VERİLER REVİZE EDİLEBİLİR.** Bir depremin büyüklük, derinlik ve
+  konum bilgileri ilk yayından sonra uzmanlarca düzeltilebilir. İlk
+  bildirilen değerler kesin değildir.
+
+- 🔌 **KESİNTİ OLABİLİR.** Veri sağlayıcı servislerde bakım veya erişim
+  sorunu yaşanabilir. Böyle durumlarda liste güncellenmeyebilir; uygulama
+  eski veri gösterdiğini açıkça belirtir.
+
+- 🚫 **ACİL DURUM KARARLARINDA TEK BAŞINA KULLANILMAMALIDIR.** Bu uygulama
+  hayati güvenlik amacıyla tek kaynak olarak alınmamalıdır.
+
+<br>
+
+> ### 🔴 **Resmî ve doğrulanmış bilgi için daima AFAD ve Kandilli Rasathanesi kaynaklarına başvurunuz.**
 
 ---
 

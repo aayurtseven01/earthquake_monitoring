@@ -148,16 +148,18 @@ Varsayılan: **Türkiye**, **M4.0** eşiği.
 
 ## 📱 Ekran görüntüleri
 
-<!--
-Ekran görüntüsü eklemek için:
-1. Uygulamada ekran görüntüsü alın
-2. Bu depoda `screenshots/` klasörü oluşturup yükleyin
-3. Aşağıdaki satırların başındaki yorum işaretini kaldırın
-
-![2D Harita](screenshots/map.png)
-![3D Küre](screenshots/globe.png)
-![Ayarlar](screenshots/settings.png)
--->
+<table>
+  <tr>
+    <td align="center"><b>2D Harita</b><br><img src="screenshots/ekran5.jpg" width="210"></td>
+    <td align="center"><b>3D Küre</b><br><img src="screenshots/kure.jpg" width="210"></td>
+    <td align="center"><b>Dünya Modu + Liste</b><br><img src="screenshots/harita.jpg" width="210"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Ayarlar</b><br><img src="screenshots/ayarlar.jpg" width="210"></td>
+    <td align="center"><b>Açılış</b><br><img src="screenshots/ekran4.jpg" width="210"></td>
+    <td align="center"></td>
+  </tr>
+</table>
 
 ---
 
@@ -178,9 +180,92 @@ Bu uygulama resmî bir erken uyarı sistemi değildir ve acil durumlar için
 tek başına güvenilir bir kaynak olarak kullanılmamalıdır.
 
 ---
+---
+
+# English
 
 <div align="center">
 
-*Son güncelleme: 16 Eylül 2026 · Sürüm 1.0.1.1*
+**A modern Android app for tracking earthquakes worldwide, in real time.**
+
+[📄 Privacy Policy](https://aayurtseven01.github.io/earthquake_monitoring/)
+
+</div>
+
+---
+
+## 🔴 IMPORTANT WARNING — PLEASE READ CAREFULLY
+
+![Important Warning](uyari-en.png)
+
+### ⚠️ THIS APP IS NOT AN EARTHQUAKE EARLY WARNING SYSTEM.
+
+> **Earthquake data is RELAYED FROM THIRD-PARTY seismological services,
+> primarily EMSC (Euro-Mediterranean Seismological Centre). The app has NO
+> monitoring network of its own and produces no data itself.**
+
+**What you should know:**
+
+- ⏱️ **DELAYS MAY OCCUR** between the source and your device. The information
+  shown may not reflect the exact moment the earthquake happened.
+
+- 🔄 **DATA MAY BE REVISED.** Magnitude, depth and location values can be
+  corrected by seismologists after initial publication. First reported
+  values are not final.
+
+- 🔌 **OUTAGES MAY OCCUR.** Upstream services may experience maintenance or
+  access problems. The list may not update; the app clearly indicates when
+  data is stale.
+
+- 🚫 **NOT A SOLE SOURCE FOR EMERGENCY DECISIONS.** This app must not be
+  relied upon on its own for life-safety purposes.
+
+<br>
+
+> ### 🔴 **For official and verified information, always consult AFAD and the Kandilli Observatory.**
+
+---
+
+## ✨ Features
+
+- 🗺️ **Two views** — 2D topographic map (OpenTopoMap) and an interactive **3D globe**
+- 🔔 **Smart notifications** — sound + vibration, with a **magnitude threshold (M2.5–M7.0)**
+  that controls *alerts only*; the list always shows every earthquake
+- 🎛️ **Filtering** — time (Live 3h / 1h / 24h / 7 days), 15 regions + worldwide, magnitude range
+- 🌓 **Theme** — dark / light map tiles and globe texture
+- 📴 **Offline support** — cached list, clearly marked as stale when it is
+- ⚙️ **Keep screen on** (default on) · full **Turkish / English** translation
+- 🔄 **Auto refresh** — every 75 s in foreground, every 15 min in background
+
+## 🔒 Privacy
+
+| | |
+|---|---|
+| Ads | ❌ None |
+| Analytics / tracking | ❌ None |
+| Location permission | ❌ Never requested |
+| Account / sign-in | ❌ None |
+| Data selling | ❌ None |
+
+Permissions used: `INTERNET`, `ACCESS_NETWORK_STATE`, `POST_NOTIFICATIONS`, `VIBRATE` — nothing else.
+
+## 🛠️ Tech stack
+
+Kotlin · Jetpack Compose · Material 3 · Retrofit + OkHttp + Gson · osmdroid ·
+Three.js (bundled, WebView) · WorkManager · MVVM with StateFlow.
+
+**Minimum:** Android 7.0 (API 24) · **Target:** API 37
+
+## 📊 Data sources
+
+- Earthquake data: **[EMSC](https://www.seismicportal.eu/)** FDSN event service
+- Map imagery: **[OpenTopoMap](https://opentopomap.org/)** —
+  *Kartendaten: © OpenStreetMap-Mitwirkende, SRTM · Kartendarstellung: © OpenTopoMap (CC-BY-SA)*
+
+---
+
+<div align="center">
+
+*Last updated: 16 September 2026 · Version 1.0.1.1*
 
 </div>
